@@ -34,7 +34,6 @@ class Whatspam:
                     count = count + 1
                 except:
                     amount = int(amount) + 1
-                    pass
                     print("\r" + str(chat) + "\t\t\t" + str(message) + "\t\t\t" + str(count), end="")
             sleep(15)
             driver.quit()
